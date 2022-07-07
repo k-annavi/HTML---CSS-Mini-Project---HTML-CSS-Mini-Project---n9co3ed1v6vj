@@ -1,0 +1,130 @@
+.heading{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    border:2px solid rgb(78, 6, 6);
+    margin:5px 5px;
+  }
+  .name{
+    font-size:55px;
+    font-weight:800;
+    color:blue;
+    font-weight: 900;
+    font-family: fantasy;
+
+  }
+  .logo{
+    height:120px;
+  }
+body{
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid red;
+    border-radius: 2px;
+    background-color: rgb(239, 237, 237);
+}
+/* .name{ */
+        /* font-size: 30px; */
+        /* font-weight: 900; */
+        /* text-align: center; */
+        /* color: rgb(0, 76, 255); */
+        /* background-color: bisque; */
+        /* font-family:cursive; */
+        /* padding: 20px; */
+        /* margin:auto; */
+    /* } */
+
+.navbar{
+    position:sticky;
+    top:0;
+    margin:1px;
+    border:1px solid blue;
+    font-size:20px;
+    background-color:rgb(18, 207, 241);
+    display:flex;
+    justify-content:space-between;
+}
+.navbar > div{
+    margin-right:10px;
+    font-weight:20px;
+    font-size:20px;
+    padding:20px;
+    overflow:hidden;
+}
+  .navbar > div:hover{
+    background-color: greenyellow;
+    color: white;
+    cursor:pointer;
+  }
+    .box{
+    display:flex; 
+    justify-content:space-around; 
+    flex-flow:row wrap; 
+    align-content: space-around;
+    margin-top: 30px;
+} 
+.box>div{
+    border: 2px solid rgb(156, 156, 230);
+    margin-bottom: 2cm;
+
+}
+   
+  div>h4{
+    background-color:yellowgreen;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(2, 4, 123);
+ }
+ div>button{
+    padding:10px;
+    background-color: green;
+    color:whitesmoke;
+    cursor: pointer;
+    border-radius: 8px;
+
+    
+}
+    div>button:hover{
+        padding:10px;
+        background-color:rgb(199, 65, 65);
+        color:white;
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: 700;
+ }
+
+.ftn{
+    margin-right: 80px;
+}
+.stn{
+    margin-right: 80px;
+}
+button{
+    margin-bottom: 8px;
+}
+
+
+
+ .menu>div{
+    border:1px solid rgb(68, 65, 65);
+ }
+ div>img{
+    box-shadow: 3px 3px 3px solid black;
+ }
+ footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #222;
+  }
+
+  footer h3 {
+    font-size: 5rem;
+    margin-bottom: 0;
+      color:navy;
+      background-color: rgb(189, 238, 116);
+   }
+
